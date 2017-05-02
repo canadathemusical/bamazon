@@ -15,13 +15,13 @@ var connection = mysql.createConnection({
 });
 
 console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-console.log("O)) O))         O)       O))       O))      O)       O))))))) O))    O))))     O)))     O))".blue);
-console.log("O)    O))      O) ))     O) O))   O)))     O) ))            O))    O))    O))  O) O))   O))".blue);
-console.log("O)     O))    O)  O))    O)) O)) O O))    O)  O))          O))   O))        O))O)) O))  O))".blue);
-console.log("O))) O)      O))   O))   O))  O))  O))   O))   O))       O))     O))        O))O))  O)) O))".blue);
-console.log("O)     O))  O)))))) O))  O))   O)  O))  O)))))) O))     O))      O))        O))O))   O) O))".blue);
-console.log("O)      O) O))       O)) O))       O)) O))       O))  O))          O))     O)) O))    O) ))".blue);
-console.log("O)))) O)) O))         O))O))       O))O))         O))O)))))))))))    O))))     O))      O))".blue);
+console.log("O)) O))        O)       O))       O))      O)       O))))))) O))  O))))     O)))     O))".blue);
+console.log("O)    O))     O) ))     O) O))   O)))     O) ))            O))  O))    O))  O) O))   O))".blue);
+console.log("O)     O))   O)  O))    O)) O)) O O))    O)  O))          O)) O))        O))O)) O))  O))".blue);
+console.log("O))) O)     O))   O))   O))  O))  O))   O))   O))       O))   O))        O))O))  O)) O))".blue);
+console.log("O)     O)) O)))))) O))  O))   O)  O))  O)))))) O))     O))    O))        O))O))   O))O))".blue);
+console.log("O)      O)O))       O)) O))       O)) O))       O))  O))        O))    O))  O))    O))))".blue);
+console.log("O)))) O))O))         O))O))       O))O))         O))O)))))))))))  O))))     O))      O))".blue);
 console.log("\n");                                                                                                  
 
 

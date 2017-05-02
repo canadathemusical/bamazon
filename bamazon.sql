@@ -2,7 +2,7 @@ create database Bamazon;
 
 use Bamazon;
 
-CREATE TABLE products (item_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, product_name VARCHAR(255), department_name VARCHAR(255), price DOUBLE, stock_quantity INT(11));
+CREATE TABLE products (item_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, product_name VARCHAR(255), department_name VARCHAR(255), price DECIMAL(14, 2), stock_quantity INT(11));
 
 desc products;
 
@@ -35,8 +35,6 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Nothingness", "", 0.00, 10000000);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Permenantly Deflated Basketball", "Sports", 1.95, 2800);
+VALUES ("Permenantly Deflated Basketball Team", "Pacers", 1.95, 2800);
 
 select * from products;
-
-drop table products;
